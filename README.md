@@ -38,7 +38,6 @@ This code uses the following technologies
 * python
 * seaborn
 * numpy
-* seaborn
 * scipy
 * pandas
 
