@@ -17,7 +17,9 @@
 [inspectCSV.py](../inspectCSV.py) reads in rugs.csv into a pandas dataframe. Here we can try to visualize the data recorded. However, we are most interested in trying to see how many rugs will be rejected (have a 4x4 grid of the same color).
 > According to the current version of [rugs.csv](../rugs.csv) , the following regression line is found. 
 >> slope: 0.0007330219239534675
+
 >> intercept: 1.131
+
 >> rugs Per 4x4 Grid: 1364.215
 
 ![alt text](https://github.com/StewSchrieff/riddlerRugs/blob/master/rugs4x4.png "4x4 blocks as a function of number of rugs generated")
