@@ -26,4 +26,28 @@
 As you can see above, the rate of 4x4 blocks appears fairly linear. Not nearly as linear as the number of 3x4 blocks, as shown below. This would become more linear as we increase the number of rugs generated. `something something GPU programming?` 
 ![alt text](https://github.com/StewSchrieff/riddlerRugs/blob/master/rugs3x4.png "3x4 blocks as a function of number of rugs generated")
 
-In order to improve this study, we could try to do some optimization to [rugMachine.py](../rugMachine.py) that would allow us to continue to measure 4x4 blocks by increasing the number of rugs generated. 
+In order to improve this study, we could try to do some optimization to [rugMachine.py](../rugMachine.py) that would allow us to continue to measure 4x4 blocks by increasing the number of rugs generated.
+
+
+
+
+
+This code uses the following technologies
+* python
+* seaborn
+* numpy
+* seaborn
+* scipy
+* pandas
+
+
+
+
+
+
+
+
+
+
+
+ 
