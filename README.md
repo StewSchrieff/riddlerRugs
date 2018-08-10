@@ -28,7 +28,9 @@ As you can see above, the rate of 4x4 blocks appears fairly linear. Not nearly a
 
 In order to improve this study, we could try to do some optimization to [rugMachine.py](../rugMachine.py) that would allow us to continue to measure 4x4 blocks by increasing the number of rugs generated.
 
+# Conclusion
 
+After running 80000 simulated rugs, we found 58 rugs that had 4x4 grids. This is a pretty low rate of bad rugs. By using linear regression, we find that we could expect a bad rug about once every 1364 rugs.
 
 
 
