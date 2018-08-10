@@ -1,4 +1,4 @@
-###This code attempts to solve the classic Riddler from the week of Aug. 10, 2018.
+### This code attempts to solve the classic Riddler from the week of Aug. 10, 2018.
 
 [rugMachine.py](../rugMachine.py) is run to generate rugs.csv. rugMachine.py contains code that randomly generates 100x100 rugs of random colors (Green, white, silver) and then tries to find 4x4 grids where the same color is used in all tiles. [rugMachine.py](../rugMachine.py) tries to find 4 tiles of the same color in a row. Then, afterwards checking to see if those lines of 4 line up with 3 other lines of 4 of the same color.
 > Optimization not included in [rugMachine.py](../rugMachine.py)...maybe one day 
@@ -17,6 +17,7 @@
 [inspectCSV.py](../inspectCSV.py) reads in rugs.csv into a pandas dataframe. Here we can try to visualize the data recorded. However, we are most interested in trying to see how many rugs will be rejected (have a 4x4 grid of the same color).
 > According to the current version of [rugs.csv](../rugs.csv) , the following regression line is found. 
 >> slope: 0.0007330219239534675
+
 >> intercept: 1.131
 
 >> rugs Per 4x4 Grid: 1364.215
